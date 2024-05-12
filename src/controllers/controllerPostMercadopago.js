@@ -17,8 +17,8 @@ const controllerPostMercadopago = async ({ cart, userData }) => {
       email: userData.email,
     },
     back_urls: {
-      success: "http://localhost:3000/success",
-      failure: "http://localhost:3000/failed",
+      success: "https://rag-ecommerce-frontend.vercel.app/success",
+      failure: "https://rag-ecommerce-frontend.vercel.app/failed",
       pending: "",
     },
     auto_return: "approved",
